@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/861b96d111.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-[#FEFFEF]">
+<body class="bg-[#FEFFEF] overflow-x-hidden">
     <nav class="z-20 fixed top-0 w-screen bg-white lg:bg-transparent overflow-x-hidden drop-shadow-md">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between">
@@ -139,8 +139,8 @@
         </div>
     </section>
 
-    <div class="w-screen bottom-0 hidden md:flex lg:flex">
-        <img src="<?php echo base_url('/images/footer-desktop.svg') ?>">
+    <div class="bottom-0 hidden md:flex lg:flex">
+        <img class="w-screen" src="<?php echo base_url('/images/footer-desktop.svg') ?>">
     </div>
     <div class="w-screen bottom-0 md:hidden lg:hidden">
         <img src="<?php echo base_url('/images/footer-mobile.svg') ?>">
