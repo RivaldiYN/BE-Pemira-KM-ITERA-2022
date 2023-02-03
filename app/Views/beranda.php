@@ -9,45 +9,53 @@
     <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
     <link rel="stylesheet" href="<?php echo base_url('/css/app.css') ?>">
     <script src="https://kit.fontawesome.com/861b96d111.js" crossorigin="anonymous"></script>
-</head>
+</head> 
 
 <body class="bg-[#e6e7ba] overflow-x-hidden lg:overflow-x-hidden">
-    <nav class="z-20 fixed top-0 w-screen bg-white lg:bg-transparent overflow-x-hidden drop-shadow-md">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="flex justify-between">
-                <div class="flex space-x-4">
-                    <div class="mr-4">
-                        <a href="" class="flex items-center px-2">
-                            <img class="h-16 lg:h-20 mr-1" src="<?php echo base_url('/images/logo.svg') ?>">
-                        </a>
-                    </div>
+    <nav class="top-0 z-50 fixed w-screen px-5 md:px-10">
+        <div class="nav-container flex flex-row justify-between md:items-center items-start ">
+            <div class="logo">
+                <div class="logoContainer bg-white px-5 pb-5 pt-3 rounded-b-3xl">
+                <img class="w-28" src="<?php echo base_url('/images/logo.svg') ?>">
                 </div>
+            </div>
 
-                <div class="hidden md:flex items-center space-x-1">
-                    <a href="/" class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Beranda</a>
-                    <a href="/capresma" class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Capresma</a>
-                    <a href="#timeline" class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Timeline</a>
-                    <a href="/lokasi" class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Lokasi
-                        Pemilihan</a>
-                </div>
-
-                <!-- mobile button -->
-                <div class="mt-4 md:hidden flex items-center">
-                    <button class="mobile-menu-button">
-                        <i class="fa-solid fa-bars w-10 h-10"></i>
+            <div class="nav-link w-full md:w-fit bg-button-color md:bg-transparent py-3 rounded-br-small-desktop">
+                <div class="flex md:hidden justify-end px-5">
+                    <button class="togle-nav-link" id="togle-nav-menu">
+                        <img src="<?php echo base_url('/images/humbergear_menu.svg')?>">
                     </button>
                 </div>
-
+                <ul class="hidden md:flex gap-2 items-center">
+                    <li>
+                        <a href="/" class="bg-button-color px-6 py-2 rounded-tl-small-desktop rounded-br-small-desktop font-bold text-white">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="/capresma" class="font-bold text-lime-900 hover:bg-[#C0D057] px-6 py-2 hover:rounded-tl-small-desktop hover:rounded-br-small-desktop  hover:text-white">Capresma</a> 
+                    </li>
+                    <li>
+                        <a href="#timeline" class="font-bold text-lime-900 hover:bg-[#C0D057] px-6 py-2 hover:rounded-tl-small-desktop hover:rounded-br-small-desktop  hover:text-white">Timeline</a> 
+                    </li>
+                    <li>
+                        <a href="/lokasi" class="font-bold text-lime-900 hover:bg-[#C0D057] px-6 py-2 hover:rounded-tl-small-desktop hover:rounded-br-small-desktop  hover:text-white">Lokasi Pemilihan</a> 
+                    </li>
+                </ul>
             </div>
         </div>
-        <!-- mobile menu -->
-        <div class="mobile-menu hidden md:hidden bg-white">
-            <a href="/" class="block py-2 px-4 text-sm">Beranda</a>
-            <a href="/capresma" class="block py-2 px-4 text-sm">Capresma</a>
-            <a href="#timeline" class="block py-2 px-4 text-sm">Timeline</a>
-            <a href="/lokasi" class="block py-2 px-4 text-sm">Lokasi Pemilihan</a>
-            <div class="p-1 bottom-0 bg-[#899443]"></div>
-        </div>
+        <ul class=" hidden md:hidden w-full bg-[#00000025] pt-5 pb-3 mt-1 rounded-normal-mobile" id="nav-menu">
+            <li class="py-2 m-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">
+                <a href="/" class="font-bold text-lime-900">Beranda</a> 
+            </li>
+            <li class="py-2 m-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">
+                <a href="/capresma" class="font-bold text-lime-900">Capresma</a> 
+            </li>
+            <li class="py-2 m-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">
+                <a href="#timeline" class="font-bold text-lime-900">Timeline</a> 
+            </li>
+            <li class="py-2 m-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">
+                <a href="/lokasi" class="font-bold text-lime-900">Lokasi Pemilihan</a> 
+            </li>
+        </ul>
     </nav>
 
     <section class="flex flex-col justify-center mt-16 sm:mt-0">
@@ -151,6 +159,7 @@
         </div>
     </section>
     <script src="<?php echo base_url('/js/app.js') ?>"></script>
+    <script src="<?php echo base_url('/js/script.js') ?>"></script>
 </body>
 
 </html>
