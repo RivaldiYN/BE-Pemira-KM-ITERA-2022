@@ -64,9 +64,9 @@
                 <div class="justify-center flex">
                     <img src="<?php echo base_url('/images/capresma.svg') ?>" alt="capresma">
                 </div>
-                <h1 class="text-lg lg:text-2xl font-bold mt-8">Erza Refenza</h1>
-                <h1 class="text-lg lg:text-2xl lg:mt-8">120150036</h1>
-                <h1 class="text-lg lg:text-2xl lg:mt-8">Teknik Geologi</h1>
+                <h1 class="text-lg lg:text-2xl font-bold mt-8"><?= $detail_capresma[0]->nama ?></h1>
+                <h1 class="text-lg lg:text-2xl lg:mt-8"><?= $detail_capresma[0]->nim ?></h1>
+                <h1 class="text-lg lg:text-2xl lg:mt-8"><?= $detail_capresma[0]->prodi ?></h1>
             </div>
         </div>
         <div class="top-0 z-10">
@@ -92,11 +92,7 @@
         <div class="my-10 md:mx-48 lg:mx-80">
             <h1 class="text-center font-bold lg:text-2xl">Visi :</h1>
             <div class="rounded-xl border-2 border-[#899443] lg:shadow-none mx-7 mt-4 z-50 justify-center flex">
-                <h2 class="p-4 lg:p-8">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-                    maxime qui aut distinctio asperiores laudantium dolorem. Sint
-                    excepturi quae impedit at? Vitae exercitationem optio tempore eum
-                    perferendis eligendi aperiam voluptatum?
+                <h2 class="p-4 lg:p-8"><?= $detail_capresma[0]->visi ?>
                 </h2>
             </div>
         </div>
@@ -106,7 +102,8 @@
             <div
                 class="rounded-xl text-[#FEFFEF] border-2 border-[#899443] bg-[#899443] lg:shadow-none mx-7 mt-4 z-50 justify-center flex">
                 <ul class="px-4 lg:px-8 py-2 lg:py-4">
-                    <li class="py-2 lg:py-4">
+                <li><?= nl2br($detail_capresma[0]->misi) ?></li>    
+                <!-- <li class="py-2 lg:py-4">
                         1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </li>
                     <li class="py-2 lg:py-4">
@@ -117,7 +114,7 @@
                     </li>
                     <li class="py-2 lg:py-4">
                         4. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>

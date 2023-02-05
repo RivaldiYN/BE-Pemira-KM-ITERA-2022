@@ -10,7 +10,10 @@ class DetailCapresma extends Model {
         if ($id === false){
             return $this->findAll();
         } else {
-            return $this->getWhere(['Id' => $id]);
+            // return $this->getWhere(['Id' => $id]);
+            $this->where('id', 1);                // where clause
+            $query = $this->get()->getResult();
+            return $query;
         }
     }
 }

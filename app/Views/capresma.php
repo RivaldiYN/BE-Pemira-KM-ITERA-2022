@@ -60,17 +60,30 @@
 
     <section class="overflow-x-hidden mt-16 sm:mt-0">
         <div class="w-screen flex items-center flex-col md:mt-24 md:justify-center md:flex-row z-20">
+        <?php
+                $i = 0;
+                foreach($detail_capresma as $details) {
+                    
+                ?>
             <div class="mx-14 text-center md:w-48 lg:w-[19.5rem] z-10">
-                <a href="/detail-capresma">
+                
+                <a href="/detail-capresma/<?= $details['id'] ?>">
                 <img src="<?php echo base_url('/images/capresma.svg') ?>" alt="capresma">
                 </a>
                 <h1 class="mt-4 lg:text-2xl font-bold">
-                    Erza Refenza
+                <?= $details['nama']
+                ?>
                 </h1>
-                <h1 class="lg:text-2xl">120150036</h1>
-                <h1 class="lg:text-2xl">Teknik Geologi</h1>
+                <h1 class="lg:text-2xl"><?= $details['nim']
+                ?></h1>
+                <h1 class="lg:text-2xl"><?= $details['prodi']
+                ?></h1>
             </div>
-            <div class="mx-14 text-center md:w-48 lg:w-[19.5rem] z-10">
+            <?php
+            $i++;
+            }
+            ?>
+            <!-- <div class="mx-14 text-center md:w-48 lg:w-[19.5rem] z-10">
                 <a href="/detail-capresma">
                 <img src="<?php echo base_url('/images/capresma.svg') ?>" alt="capresma">
                 </a>
@@ -79,7 +92,7 @@
                 </h1>
                 <h1 class="lg:text-2xl">120280118</h1>
                 <h1 class="lg:text-2xl">Teknik Kimia</h1>
-            </div>
+            </div> -->
             </div>
             <div class="z-0 md:hidden">
                 <img class="-mt-[60rem]" src="<?php echo base_url('/images/bg-capresma-mobile.svg') ?>" alt="">
