@@ -100,22 +100,38 @@
         <div class="my-10 md:mx-48 lg:mx-80">
             <h1 class="text-center font-bold lg:text-2xl">Misi :</h1>
             <div
-                class="rounded-xl text-[#FEFFEF] border-2 border-[#899443] bg-[#899443] lg:shadow-none mx-7 mt-4 z-50 justify-center flex">
-                <ul class="px-4 lg:px-8 py-2 lg:py-4">
-                <li><?= nl2br($detail_capresma[0]->misi) ?></li>    
-                <!-- <li class="py-2 lg:py-4">
-                        1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li class="py-2 lg:py-4">
-                        2. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li class="py-2 lg:py-4">
-                        3. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li class="py-2 lg:py-4">
-                        4. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li> -->
-                </ul>
+                class="rounded-xl text-[#FEFFEF] border-2 border-[#899443] bg-[#899443] lg:shadow-none mx-7 mt-4 z-50 shadow-lime-900 shadow-lg">
+                <div class="flex flex-row">
+                    <div
+                        class="bg-[#feffef] w-24 md:w-20 text-center m-4 mr-1 md:mr-4 rounded-b-small-mobile max-h-10 shadow-[40px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]">
+                        <p class="text-normal-desktop text-[#899443] font-extrabold">1.</p>
+                </div>
+                <div class="m-4 ml-1 md:ml-4">
+                <p class="text-smole-mobile md:text-base"><?= nl2br($detail_capresma[0]->misi) ?></p>    
+                <div class="w-full h-1 bg-[#feffef] mt-2"></div>
+                    </div>
+                </div>
+                <div class="flex flex-row">
+                    <div
+                        class="bg-[#feffef] w-24 md:w-20 text-center m-4 mr-1 md:mr-4 rounded-b-small-mobile max-h-10 shadow-[40px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]">
+                        <p class="text-normal-desktop text-[#899443] font-extrabold"><?= nl2br($detail_capresma[0]->misi) ?></p>
+                    </div>
+                    <div class="m-4 ml-1 md:ml-4">
+                        <p class="text-smole-mobile md:text-base"><?= nl2br($detail_capresma[0]->misi) ?></p>
+                        <div class="w-full h-1 bg-[#feffef] mt-2"></div>
+                    </div>
+                </div>
+                <div class="flex flex-row">
+                    <div
+                        class="bg-[#feffef] w-24 md:w-20 text-center m-4 mr-1 md:mr-4 rounded-b-small-mobile max-h-10 shadow-[40px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]">
+                        <p class="text-normal-desktop text-[#899443] font-extrabold">10.</p>
+                    </div>
+                    <div class="m-4 ml-1 md:ml-4">
+                        <p class="text-smole-mobile md:text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, hic? Officiis dolores,
+                            tenetur aliquam dolor laboriosam obcaecati non est vel?</p>
+                        <div class="w-full h-1 bg-[#feffef] mt-2"></div>
+                    </div>
+                </div>
             </div>
         </div>
 

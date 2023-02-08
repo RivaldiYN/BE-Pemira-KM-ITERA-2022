@@ -69,41 +69,370 @@
         </div>
     </section>
 
-    <section class="mt-2 lg:z-50 lg:-mt-20 flex flex-col lg:flex-row justify-center overflow-x-hidden">
-        <div class="my-10">
+    <!-- jumbotron -->
+
+    <!-- daerah pemilihan -->
+    <section class="pt-2 lg:z-50 lg:-mt-20 flex flex-col lg:flex-row justify-around overflow-x-hidden">
+        <!-- Gedung C -->
+        <div class="my-10 container mx-auto">
             <h1 class="text-center font-bold text-lg lg:text-2xl">Gedung E ITERA</h1>
-            <div class="rounded-xl text-[#FEFFEF] border-2 border-[#899443] bg-[#899443] lg:shadow-none mx-7 lg:mx-12 mt-4 z-50 justify-center flex">
-                <ul class="px-4 lg:px-10 py-4 lg:py-8">
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">1</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">2</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">3</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">4</li>
-                </ul>
-                <ul class="px-4 lg:px-10 py-4 lg:py-8">
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
+            <img src="../img/E.svg" class="w-9/12 z-20 relative drop-shadow-2xl mx-auto" alt="">
+            <!-- drop shadow -->
+            <div
+                class="rounded-xl text-[#FEFFEF] bg-[#899443] lg:shadow-none z-10 justify-center -translate-y-10 py-8 bg-[url('../img/detailintersct.svg')] bg-no-repeat bg-contain bg-bottom w-10/12 mx-auto bg-origin-border">
+                <ul class="py-8">
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+                    
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
-        <div class="my-10">
-            <h1 class="text-center font-bold text-lg lg:text-2xl">Gedung F ITERA</h1>
-            <div class="rounded-xl text-[#FEFFEF] border-2 border-[#899443] bg-[#899443] lg:shadow-none mx-7 lg:mx-12 mt-4 z-50 justify-center flex">
-                <ul class="px-4 lg:px-8 py-4 lg:py-8">
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">1</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">2</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">3</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">4</li>
-                </ul>
-                <ul class="px-4 lg:px-8 py-4 lg:py-8">
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
+        <!-- Gedung c -->
+
+        <!-- Gedung F -->
+        <div class="my-10 container mx-auto">
+            <h1 class="text-center font-bold text-lg lg:text-2xl">Gedung E ITERA</h1>
+            <img src="../img/E.svg" class="w-9/12 z-20 relative drop-shadow-2xl mx-auto" alt="">
+            <!-- drop shadow -->
+            <div
+                class="rounded-xl text-[#FEFFEF] bg-[#899443] lg:shadow-none z-10 justify-center -translate-y-10 py-8 bg-[url('../img/detailintersct.svg')] bg-no-repeat bg-contain bg-bottom w-10/12 mx-auto bg-origin-border">
+                <ul class="py-8">
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+
+                    <li class="flex py-2">
+                        <p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-4 ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset">1</p>
+                        <div class="mx-auto w-full px-4 ">
+                            <p class="">Nama Program Studi</p>
+                            <div class=" w-full h-1 bg-white"></div>
+                        </div>
+                    </li>
+                    
                 </ul>
             </div>
         </div>
+        <!-- Gedung F -->
     </section>
 
     <div class="w-screen bottom-0 hidden md:flex lg:flex">

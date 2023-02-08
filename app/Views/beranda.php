@@ -11,12 +11,12 @@
     <script src="https://kit.fontawesome.com/861b96d111.js" crossorigin="anonymous"></script>
 </head> 
 
-<body class="bg-[#e6e7ba] overflow-x-hidden lg:overflow-x-hidden">
-    <nav class="top-0 z-50 fixed w-screen px-5 md:px-10">
+<body class="bg-[#e6e7ba] overflow-x-hidden">
+    <nav class="z-20 fixed w-screen px-5 md:px-10">
         <div class="nav-container flex flex-row justify-between md:items-center items-start ">
             <div class="logo">
                 <div class="logoContainer bg-white px-5 pb-5 pt-3 rounded-b-3xl">
-                <img class="w-28" src="<?php echo base_url('/images/logo.svg') ?>">
+                <img class="w-28" src="<?php echo base_url('/images/logo_2.svg') ?>">
                 </div>
             </div>
 
@@ -58,106 +58,142 @@
         </ul>
     </nav>
 
-    <section class="flex flex-col justify-center mt-16 sm:mt-0">
-        <div class="w-screen">
-            <div class="-mt-2 lg:-mt-24">
-                <img class="w-72 md:w-[36rem] lg:w-[44rem] z-10 absolute loading-normal" src="<?php echo base_url('/images/awan-depan.svg') ?>">
-            </div>
-            <div class="mt-56 w-screen">
-                <img class="z-100 absolute" src="<?php echo base_url('/images/awan-belakang.svg') ?>">
-            </div>
-            <div class="-mt-32 md:mt-20 mx-7 md:mx-56 lg:mx-auto z-[9] relative lg:max-w-[600px]">
-                <div class="rounded-2xl p-4 lg:p-28" style="background: rgba(255, 255, 255, 0.6);">
-                    <div class="text-center px-5 py-5">
-                        <h1 class="text-lg lg:text-4xl font-bold text-gray-900">Pemira KM ITERA 2022</h1>
+    <div class="paralag w-screen relative z-10">
+        <div class="awan">
+            <img class="w-64 md:w-[20vw]" src="<?php echo base_url('/images/awan.svg') ?>" alt="">
+        </div>
+        <div class="mainbg">
+            <img class="w-screen relative md:-top-28 top0" src="<?php echo base_url('/images/bg-beranda.svg') ?>" alt="">
+        </div>
+
+
+        <div class="absolute top-24 lg:top-52 w-full">
+            <div class="w-[70vw] lg:w-[50vw] mx-auto rounded-2xl p-4 md:p-16" style="background: rgba(255, 255, 255, 0.6);">
+                <div class="text-center px-5 py-5">
+                    <h1 class="text-lg md:text-extra-desktop font-extrabold font-poppins text-gray-900">Pemira KM ITERA 2022</h1>
                     </div>
-                    <div class="text-center px-5 pb-6">
-                        <h4 class="lg:text-xl mb-6">
+                    <div class="text-center px-5 md:pb-6 pb-2">
+                        <h4 class="md:text-normal-desktop mb-6">
                             Pemilihan Raya Keluarga Mahasiswa Institut Teknologi Sumatera
                         </h4>
                         <div class="space-y-3">
-                            <button type="submit" class="mt-4 p-4 px-12 items-center justify-center rounded-lg lg:px-32 lg:text-2xl bg-[#899443] hover:opacity-75 text-white">
-                                Vote
-                            </button>
+                        <div class="md:mt-20 mt-10">
+                            <a href="http://pemira.km.itera.ac.id/" 
+                            class="p-4 px-12 items-center justify-center rounded-lg md:px-32 md:text-normal-desktop bg-[#899443] hover:opacity-75 text-white">
+                            Vote
+                        </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="-mt-24 md:-mt-56 lg:-mt-96 z-[8]">
-                <img class=" object-center w-screen" src="<?php echo base_url('/images/bg-berandaa.svg') ?>">
-            </div>
         </div>
-    </section>
+    </div>
 
-    <section class="bg-white text-center items-center justify-center pt-10 lg:pt-2 -mt-20 md:-mt-40 lg:-mt-64 overflow-x-hidden">
-        <div class="mt-24 lg:mt-80 mb-8 mx-7 md:mx-44 lg:mx-80">
-            <h1 class="text-lg lg:text-4xl mb-8 font-bold lg:px-16">
-                Tentang Pemira
-            </h1>
-            <div class="border-2 border-[#899443] rounded-lg shadow-[#bababa] shadow-md p-4">
-                <p class="lg:text-xl mb-4 lg:px-12 lg:pt-6">
+    <div class="bg-second">
+
+    <section class="py-8 px-4 pt-44 bg-second relative -top-[8rem] md:-top-[24rem]  text-center
+    ">
+        <div class="maincontainer relative top-9 md:top-64">
+            <h1 class="text-normal-desktop md:text-extra-desktop  text-center font-bold leading-relaxed py-4 md:py-8 text">
+                Tentang Pemira </h1>
+            <div
+                class="container border-4 md:border-8 border-button-color rounded-normal-desktop shadow-[#bababa] shadow-md md:p-10 md:w-[70vw] mx-4 md:mx-auto p-4 text-normal-mobile md:text-normal-desktop font-bold">
+                <p class="leading-7 md:mb-12 mb-4   ">
                     PEMIRA KM ITERA 2021 merupakan kegiatan pemilihan presiden KM ITERA
                     yang akan memimpin kabinet KM ITERA di periode selanjutnya.
                 </p>
-                <p class="lg:text-xl font-semibold italic lg:px-12">
+    
+                <blockquote class="font-bold italic text-center tracking-wider hover:antialiased mt-3">
                     "Keberhasilan pemimpin diukur dari kemampuan mereka
                     dalam menyejahterakan umat yang mereka pimpin."
+                </blockquote>
+    
+                <p class="text-center mb-3">
+                    - Abdurrahman Wahid -
                 </p>
-                <p class="lg:text-xl mb-4 lg:px-12">
-                    - Abdurrahman Wahid
-                </p>
-                <p class="lg:text-xl mb-4 lg:px-12 lg:pb-6">
+    
+                <p class="leading-7 mt-4 md:mt-12  ">
                     Mari kita wujudkan kepemimpinan yang lebih baik daripada sebelumnya
                     sebagai wujud perkembangan yang nyata dalam menjalankan kehidupan.
                 </p>
-            </div>
         </div>
-
-        <div class="mt-16">
-            <h1 class="mb-8 text-lg lg:text-4xl font-bold">Tutorial</h1>
-            <div class="z-[15] justify-center flex lg:mx-80">
-                <iframe class="rounded-xl lg:shadow-none lg:w-[1280px] lg:h-[280px]" allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="auto" src="https://www.youtube.com/embed/8OxTG8plkz4?rel=0" width="auto"></iframe><img border="0" height="0" src="https://i2.ytimg.com/vi/mu1KSw28snI/0.jpg" width="0" />
-            </div>
-        </div>
-
-        <div class="mt-16 grid overflow-x-hidden" id="timeline">
-            <div class="flex justify-center">
-                <h1 class="text-lg lg:text-4xl z-[11] font-bold">Timeline</h1>
-            </div>
-            <div class="w-screen flex flex-wrap justify-center mt-8 lg:my-16 lg:flex-row lg:justify-center z-[11]">
-                <div class="w-32 lg:w-48 m-4 lg:m-8 text-center bg-gradient-to-br from-zinc-200 to-zinc-400 rounded-xl p-2 shadow-md shadow-zinc-500">
-                    <h1 class="font-extrabold text-2xl lg:text-4xl">22-23</h1>
-                    <h3 class="font-bold text-sm lg:text-xl">November</h3>
-                    <h5 class="font-bold text-sm lg:text-xl">2022</h5>
-                    <h5 class="text-white text-xs lg:text-xl mt-2">Open Recruitment Presma</h5>
-                </div>
-                <div class="w-32 lg:w-48 m-4 lg:m-8 text-center bg-gradient-to-br from-zinc-200 to-zinc-400 rounded-xl p-2 shadow-md shadow-zinc-500">
-                    <h1 class="font-extrabold text-2xl lg:text-4xl">22-23</h1>
-                    <h3 class="font-bold text-sm lg:text-xl">November</h3>
-                    <h5 class="font-bold text-sm lg:text-xl">2022</h5>
-                    <h5 class="text-white text-xs lg:text-xl mt-2">Open Recruitment Presma</h5>
-                </div>
-                <div class="w-32 lg:w-48 m-4 lg:m-8 text-center bg-gradient-to-br from-zinc-200 to-zinc-400 rounded-xl p-2 shadow-md shadow-zinc-500">
-                    <h1 class="font-extrabold text-2xl lg:text-4xl">22-23</h1>
-                    <h3 class="font-bold text-sm lg:text-xl">November</h3>
-                    <h5 class="font-bold text-sm lg:text-xl">2022</h5>
-                    <h5 class="text-white text-xs lg:text-xl mt-2">Open Recruitment Presma</h5>
-                </div>
-                <div class="w-32 lg:w-48 m-4 lg:m-8 text-center bg-gradient-to-br from-zinc-200 to-zinc-400 rounded-xl p-2 shadow-md shadow-zinc-500">
-                    <h1 class="font-extrabold text-2xl lg:text-4xl">22-23</h1>
-                    <h3 class="font-bold text-sm lg:text-xl">November</h3>
-                    <h5 class="font-bold text-sm lg:text-xl">2022</h5>
-                    <h5 class="text-white text-xs lg:text-xl mt-2">Open Recruitment Presma</h5>
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-16 z-50 lg:z-50 overflow-x-hidden">
-            <div class="w-screen bottom-0">
-                <img src="<?php echo base_url('/images/footer-beranda.svg') ?>">
-            </div>
         </div>
     </section>
+
+        <!-- Tutorial-->
+    <section class="pb-8 px-4 bg-second">
+        <h1 class="text-xl md:text-2xl lg:text-4xl text-center font-bold leading-relaxed py-4 md:py-8 mx-auto">
+            Tutorial
+        </h1>
+        <iframe class="rounded-xl w-full md:w-3/4 aspect-video mx-auto xl:w-3/5" allow="autoplay; encrypted-media"
+            allowfullscreen="" frameborder="0" height="auto" src="https://www.youtube.com/embed/8OxTG8plkz4?rel=0"
+            width="auto">
+            <img src="https://i2.ytimg.com/vi/mu1KSw28snI/0.jpg" />
+        </iframe>
+    </section>
+
+    <!-- Timeline-->
+
+    <section class="py-8 container mx-auto px-4">
+            <h1 class="text-xl md:text-2xl lg:text-4xl text-center font-bold leading-relaxed py-4">Timeline</h1>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 " id="timeline">
+
+                <div class="flex items-center justify-center mt-10">
+                    <div class="timeline-box bg-[url('../public/images/Union.svg')] bg-no-repeat bg-cover drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)] w-40 md:w-64 h-40 md:h-64 px-4 py-2 md:p-8 flex justify-center items-center">
+                        <div class="gruping">
+                            <h1 class="font-black text-big-mobile md:text-big-desktop text-center ">02</h1>
+                            <h3 class="font-extrabold text-md xl:text-xl text-center -translate-y-2">februari 2023</h3>
+                            <h5 class="text-white font-bold text-xs mt-2 md:text-sm xl:text-medium-mobile text-center" style="text-shadow: 2px 0 10px black;">
+                                Uji Panelis    
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center mt-10">
+                    <div class="timeline-box bg-[url('../img/Union.svg')] bg-no-repeat bg-cover drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)] w-40 md:w-64 h-40 md:h-64 px-4 py-2 md:p-8 flex justify-center items-center" style="filter: drop-shadow(0px 5px 30px 20px rgba(0,0,0,0.75));">
+                        <div class="gruping">
+                            <h1 class="font-black text-big-mobile md:text-big-desktop text-center ">06-10</h1>
+                            <h3 class="font-extrabold text-md xl:text-xl text-center -translate-y-2">februari 2023</h3>
+                            <h5 class="text-white font-bold text-xs mt-2 md:text-sm xl:text-medium-mobile text-center" style="text-shadow: 2px 0 10px black;">
+                                Dialog Publik    
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center mt-10">
+                    <div class="timeline-box bg-[url('../img/Union.svg')] bg-no-repeat bg-cover drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)] w-40 md:w-64 h-40 md:h-64 px-4 py-2 md:p-8 flex justify-center items-center">
+                        <div class="gruping">
+                            <h1 class="font-black text-big-mobile md:text-big-desktop text-center ">11-12</h1>
+                            <h3 class="font-extrabold text-md xl:text-xl text-center -translate-y-2">februari 2023</h3>
+                            <h5 class="text-white font-bold text-xs mt-2 md:text-sm xl:text-medium-mobile text-center" style="text-shadow: 2px 0 10px black;">
+                                Masa Tenang    
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center mt-10">
+                    <div class="timeline-box bg-[url('../img/Union.svg')] bg-no-repeat bg-cover drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)] w-40 md:w-64 h-40 md:h-64 px-4 py-2 md:p-8 flex justify-center items-center">
+                        <div class="gruping">
+                            <h1 class="font-black text-big-mobile md:text-big-desktop text-center ">13-15</h1>
+                            <h3 class="font-extrabold text-md xl:text-xl text-center -translate-y-2">februari 2023</h3>
+                            <h5 class="text-white font-bold text-xs mt-2 md:text-sm xl:text-medium-mobile text-center" style="text-shadow: 2px 0 10px black;">
+                                PEMIRA Presiden KM ITERA 2023 
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <footer class="absolute w-screen bg-second">
+        <img class="w-screen" src="<?php echo base_url('/images/footer-beranda.svg') ?>" alt="">
+    </footer>
+
     <script src="<?php echo base_url('/js/app.js') ?>"></script>
     <script src="<?php echo base_url('/js/script.js') ?>"></script>
 </body>
