@@ -140,7 +140,7 @@
             <div class="grid grid-cols-2 md:grid-cols-4 " id="timeline">
 
                 <div class="flex items-center justify-center mt-10">
-                    <div class="timeline-box bg-[url('../public/images/Union.svg')] bg-no-repeat bg-cover drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)] w-40 md:w-64 h-40 md:h-64 px-4 py-2 md:p-8 flex justify-center items-center">
+                    <div style="background-image: url(<?php echo base_url("/images/Union.svg") ?>);" class="timeline-box  bg-no-repeat bg-cover drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)] w-40 md:w-64 h-40 md:h-64 px-4 py-2 md:p-8 flex justify-center items-center">
                         <div class="gruping">
                             <h1 class="font-black text-big-mobile md:text-big-desktop text-center ">02</h1>
                             <h3 class="font-extrabold text-md xl:text-xl text-center -translate-y-2">februari 2023</h3>
@@ -151,7 +151,7 @@
                     </div>
                 </div>
                 <div class="flex items-center justify-center mt-10">
-                    <div class="timeline-box bg-[url('../img/Union.svg')] bg-no-repeat bg-cover drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)] w-40 md:w-64 h-40 md:h-64 px-4 py-2 md:p-8 flex justify-center items-center" style="filter: drop-shadow(0px 5px 30px 20px rgba(0,0,0,0.75));">
+                    <div style="background-image: url(<?php echo base_url("/images/Union.svg") ?>);" class="timeline-box bg-no-repeat bg-cover drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)] w-40 md:w-64 h-40 md:h-64 px-4 py-2 md:p-8 flex justify-center items-center" style="filter: drop-shadow(0px 5px 30px 20px rgba(0,0,0,0.75));">
                         <div class="gruping">
                             <h1 class="font-black text-big-mobile md:text-big-desktop text-center ">06-10</h1>
                             <h3 class="font-extrabold text-md xl:text-xl text-center -translate-y-2">februari 2023</h3>
@@ -162,7 +162,7 @@
                     </div>
                 </div>
                 <div class="flex items-center justify-center mt-10">
-                    <div class="timeline-box bg-[url('../img/Union.svg')] bg-no-repeat bg-cover drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)] w-40 md:w-64 h-40 md:h-64 px-4 py-2 md:p-8 flex justify-center items-center">
+                    <div style="background-image: url(<?php echo base_url("/images/Union.svg") ?>);" class="timeline-box bg-no-repeat bg-cover drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)] w-40 md:w-64 h-40 md:h-64 px-4 py-2 md:p-8 flex justify-center items-center">
                         <div class="gruping">
                             <h1 class="font-black text-big-mobile md:text-big-desktop text-center ">11-12</h1>
                             <h3 class="font-extrabold text-md xl:text-xl text-center -translate-y-2">februari 2023</h3>
@@ -173,7 +173,7 @@
                     </div>
                 </div>
                 <div class="flex items-center justify-center mt-10">
-                    <div class="timeline-box bg-[url('../img/Union.svg')] bg-no-repeat bg-cover drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)] w-40 md:w-64 h-40 md:h-64 px-4 py-2 md:p-8 flex justify-center items-center">
+                    <div style="background-image: url(<?php echo base_url("/images/Union.svg") ?>); " class="timeline-box  bg-no-repeat bg-cover drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)] w-40 md:w-64 h-40 md:h-64 px-4 py-2 md:p-8 flex justify-center items-center">
                         <div class="gruping">
                             <h1 class="font-black text-big-mobile md:text-big-desktop text-center ">13-15</h1>
                             <h3 class="font-extrabold text-md xl:text-xl text-center -translate-y-2">februari 2023</h3>
