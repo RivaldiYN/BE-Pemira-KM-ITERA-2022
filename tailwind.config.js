@@ -1,21 +1,21 @@
 /** @type {import('tailwindcss').Config} */
- module.exports = {
+module.exports = {
   content: [
     './app/Views/*.php',
     './app/Views/**/*.php',
     './app/Views/**/**/*.php',
     './app/Views/**/**/**/*.php',
   ],
-   darkMode: false, // or 'media' or 'class'
-   theme: {
-     extend: {
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {
       colors: {
         transparent: 'transparent',
         'black': "#000000",
-        'white' : "#FFFFFF",  
+        'white': "#FFFFFF",
         'main': "#E6E7BA",
         'second': "#FEFFEF",
-        'footer': "#291120", 
+        'footer': "#291120",
         'button-color': "#899443",
       },
       // backgroundColor: {
@@ -28,16 +28,16 @@
       // },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        typey : ["typey", "serif"],
-        typeyItalic : ["typey-italic", "italic"],
+        typey: ["typey", "serif"],
+        typeyItalic: ["typey-italic", "italic"],
       },
       fontSize: {
-        'extra-desktop' : '36px',
+        'extra-desktop': '36px',
         'normal-desktop': '24px',
         'normal-tablet': '20px',
         'normal-mobile': '12px',
         'smole-mobile': '10px',
-        'big-desktop' : '48px',
+        'big-desktop': '48px',
         'Medium-desktop': '30px',
         'big-mobile': '28px',
         'medium-mobile': '24px',
@@ -46,14 +46,20 @@
         'big-desktop': '35px',
         'normal-desktop': '25px',
         'small-desktop': '20px',
-        'normal-mobile' : '15px',
-        'big-mobile' : '25px',
-        'small-mobile' : '8px',
+        'normal-mobile': '15px',
+        'big-mobile': '25px',
+        'small-mobile': '8px',
       }
-     },
-   },
-   variants: {
-     extend: {},
-   },
-   plugins: [],
- }
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+
+}
+mix.webpackConfig({
+  stats: {
+    children: true,
+  },
+});

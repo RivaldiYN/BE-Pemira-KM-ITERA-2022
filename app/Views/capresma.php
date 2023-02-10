@@ -68,7 +68,7 @@
             <div class="mx-14 text-center md:w-48 lg:w-[19.5rem] z-10">
                 
                 <a href="/detail-capresma/<?= $details['id'] ?>">
-            <img src="<?php echo base_url('/images/capresma_1.svg') ?>" alt="capresma">
+            <img src="<?php echo base_url('/images/' . $details['images']) ?>" alt="capresma">
                 </a>
                 <h1 class="mt-4 lg:text-2xl font-bold">
                 <?= $details['nama']

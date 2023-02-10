@@ -20,6 +20,7 @@ class Detail extends BaseController
         // );
         $data['detail_capresma'] = $model->getData($id);
         $data['misi'] = $model_misi->getMisi($id);
+        $data['progja'] = $model_progja->getProgja($id);
         
         // $data['progja'] = []; ini nanti tolong isi get data progja where id
         // var_dump($data);
