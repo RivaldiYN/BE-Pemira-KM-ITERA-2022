@@ -58,8 +58,3 @@ module.exports = {
   plugins: [],
 
 }
-mix.webpackConfig({
-  stats: {
-    children: true,
-  },
-});
