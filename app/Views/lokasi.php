@@ -12,11 +12,11 @@
 </head>
 
 <body class="bg-[#FEFFEF] overflow-x-hidden">
-<nav class="top-0 z-50 fixed w-screen px-5 md:px-10">
+<nav class="z-50 fixed w-screen px-5 md:px-10">
         <div class="nav-container flex flex-row justify-between md:items-center items-start ">
             <div class="logo">
                 <div class="logoContainer bg-white px-5 pb-5 pt-3 rounded-b-3xl">
-                <img class="w-28" src="<?php echo base_url('/images/logo.svg') ?>">
+                <img class="w-28" src="<?php echo base_url('/images/logo_2.svg') ?>">
                 </div>
             </div>
 
@@ -28,7 +28,7 @@
                 </div>
                 <ul class="hidden md:flex gap-2 items-center">
                     <li>
-                        <a href="/" class="bg-button-color px-6 py-2 rounded-tl-small-desktop rounded-br-small-desktop font-bold text-white">Beranda</a>
+                        <a href="/" class="font-bold text-lime-900 hover:bg-[#C0D057] px-6 py-2 hover:rounded-tl-small-desktop hover:rounded-br-small-desktop  hover:text-white">Beranda</a>
                     </li>
                     <li>
                         <a href="/capresma" class="font-bold text-lime-900 hover:bg-[#C0D057] px-6 py-2 hover:rounded-tl-small-desktop hover:rounded-br-small-desktop  hover:text-white">Capresma</a> 
@@ -37,7 +37,7 @@
                         <a href="/#timeline" class="font-bold text-lime-900 hover:bg-[#C0D057] px-6 py-2 hover:rounded-tl-small-desktop hover:rounded-br-small-desktop  hover:text-white">Timeline</a> 
                     </li>
                     <li>
-                        <a href="/lokasi" class="font-bold text-lime-900 hover:bg-[#C0D057] px-6 py-2 hover:rounded-tl-small-desktop hover:rounded-br-small-desktop  hover:text-white">Lokasi Pemilihan</a> 
+                        <a href="/lokasi" class="bg-button-color px-6 py-2 rounded-tl-small-desktop rounded-br-small-desktop font-bold text-white">Lokasi Pemilihan</a> 
                     </li>
                 </ul>
             </div>
@@ -58,60 +58,173 @@
         </ul>
     </nav>
 
-    <section class="overflow-x-hidden mt-16 sm:mt-0">
+    <!-- jumbotron -->
+    <section class="overflow-x-hidden sm:mt-0">
         <div class="md:mt-60 lg:mt-80 mx-6 md:mx-44 lg:mx-64 absolute justify-center lg:justify-center">
             <div class="text-center z-20">
-                <h1 class="text-lg md:text-2xl lg:text-4xl font-bold mx-5 mt-16 z-20">Pemilihan Calon Presiden Mahasiswa Itera tahun 2022 akan diadakan di aula gedung E dan gedung F ITERA</h1>
+                <h1 class="text-lg md:text-2xl lg:text-4xl font-bold mx-5 mt-16 z-20">Validasi voting Calon Presiden Mahasiswa Itera tahun 2022 akan diadakan di aula gedung C dan gedung F ITERA</h1>
             </div>
         </div>
         <div class="top-0">
             <img class="m-0 z-0 lg:-mt-28 lg:flex w-screen" src="<?php echo base_url('/images/bg-pemilih.svg') ?>" />
         </div>
     </section>
+    <!-- jumbotron -->
 
-    <section class="mt-2 lg:z-50 lg:-mt-20 flex flex-col lg:flex-row justify-center overflow-x-hidden">
-        <div class="my-10">
-            <h1 class="text-center font-bold text-lg lg:text-2xl">Gedung E ITERA</h1>
-            <div class="rounded-xl text-[#FEFFEF] border-2 border-[#899443] bg-[#899443] lg:shadow-none mx-7 lg:mx-12 mt-4 z-50 justify-center flex">
-                <ul class="px-4 lg:px-10 py-4 lg:py-8">
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">1</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">2</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">3</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">4</li>
+    <!-- daerah pemilihan -->
+    <section class="pt-2 lg:z-50 lg:-mt-20 flex flex-col lg:flex-row justify-around overflow-x-hidden">
+        <!-- Gedung C -->
+        <div class="my-10 container mx-auto">
+            <h1 class="text-center font-bold text-lg lg:text-2xl">Gedung C ITERA</h1>
+            <img src="<?php echo base_url('/images/gedC.svg') ?>" class="w-9/12 z-20 relative drop-shadow-2xl mx-auto" alt="">
+            <!-- drop shadow -->
+            <div style="background-image: url(<?php echo base_url("/images/detailintersct.svg") ?>);"
+                class="rounded-xl text-[#FEFFEF] bg-[#899443] lg:shadow-none z-10 justify-center -translate-y-10 py-8 bg-no-repeat bg-contain bg-bottom w-10/12 mx-auto bg-origin-border">
+                <ul class="py-8" id="Clist">
+                    <li class="flex py-2">
+                        <div class="mx-auto w-full px-4">
+                            <p class="justify-end">Senin, 13 Februari 2023</p>
+                            <div
+                                class=" w-1/2 h-2 bg-white rounded-xl shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]">
+                            </div>
+                        </div>
+                    </li>
                 </ul>
-                <ul class="px-4 lg:px-10 py-4 lg:py-8">
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
+
+                <ul class="py-8" id="Clist2">
+                    <li class="flex py-2">
+                        <div class="mx-auto w-full px-4">
+                            <p class="justify-end">Selasa, 14 Februari 2023</p>
+                            <div
+                                class=" w-1/2 h-2 bg-white rounded-xl shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="py-8" id="Clist3">
+                    <li class="flex py-2">
+                        <div class="mx-auto w-full px-4">
+                            <p class="justify-end">Rabu, 15 Februari 2023</p>
+                            <div
+                                class=" w-1/2 h-2 bg-white rounded-xl shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]">
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
-        <div class="my-10">
+        <!-- Gedung c -->
+
+        <!-- Gedung F -->
+        <div class="my-10 container mx-auto">
             <h1 class="text-center font-bold text-lg lg:text-2xl">Gedung F ITERA</h1>
-            <div class="rounded-xl text-[#FEFFEF] border-2 border-[#899443] bg-[#899443] lg:shadow-none mx-7 lg:mx-12 mt-4 z-50 justify-center flex">
-                <ul class="px-4 lg:px-8 py-4 lg:py-8">
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">1</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">2</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">3</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base p-4 my-2 bg-[#FEFEFE] text-[#899443] rounded-md font-bold">4</li>
+            <img src="<?php echo base_url('/images/gedF.svg') ?>" class="w-9/12 z-20 relative drop-shadow-2xl mx-auto" alt="">
+            <!-- drop shadow -->
+            <div style="background-image: url(<?php echo base_url("/images/detailintersct.svg") ?>);"
+                class="rounded-xl text-[#FEFFEF] bg-[#899443] lg:shadow-none z-10 justify-center -translate-y-10 py-8 bg-no-repeat bg-contain bg-bottom w-10/12 mx-auto bg-origin-border">
+
+                <ul class="py-8" id="Flist">
+                    <li class="flex py-2">
+                        <div class="mx-auto w-full px-4">
+                            <p class="justify-end">Selasa, 14 Februari 2023</p>
+                            <div
+                                class=" w-1/2 h-2 bg-white rounded-xl shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]">
+                            </div>
+                        </div>
+                    </li>
                 </ul>
-                <ul class="px-4 lg:px-8 py-4 lg:py-8">
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
-                    <li class="py-2 lg:py-2 text-sm lg:text-base my-2">Nama Program Studi</li>
+
+                <ul class="py-8" id="Flist2">
+                    <li class="flex py-2">
+                        <div class="mx-auto w-full px-4">
+                            <p class="justify-end">Rabu, 15 Februari 2023</p>
+                            <div
+                                class=" w-1/2 h-2 bg-white rounded-xl shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]">
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
+        <!-- Gedung F -->
     </section>
 
-    <div class="w-screen bottom-0 hidden md:flex lg:flex">
-        <img src="<?php echo base_url('/images/footer-desktop.svg') ?>">
-    </div>
-    <div class="w-screen bottom-0 md:hidden lg:hidden">
-        <img src="<?php echo base_url('/images/footer-mobile.svg') ?>">
-    </div>
+    <footer class="absolute w-screen bg-second">
+        <img src="<?php echo base_url('/images/footer-beranda.svg') ?>">
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        var Clist = [
+            "Fisika",
+            "Teknik Sipil",
+            "SAP",
+            "DKV",
+            "Teknik Industri Pertanian",
+            "Instrumentasi dan Automasi",
+            "Sains Aktuaria",
+            "Teknik Geofisika",
+            "Kimia",
+            "Farmasi",
+            "Teknik Sistem Energi",
+            "Teknik Kimia",
+            "Rekayasa Minyak dan Gas"
+        ];
+        var Clist2 = [
+            "Teknik Elektro",
+            "Teknik Informatika",
+            "Teknik Biosistem",
+            "Teknik Material",
+            "ARL",
+            "Rekayasa Tata Kelola Air Terpadu",
+            "Sains Data"
+        ];
+        var Clist3 = [
+            "Teknik Geomatika",
+            "Teknik Geologi",
+            "Biologi",
+            "Teknik Lingkungan",
+            "Teknik Biomedis",
+            "Rekayasa Kosmetik",
+            "Teknik Perkeretaapian"
+        ];
+        var Flist = [
+            "PWK",
+            "Matematika",
+            "Teknik Kelautan",
+            "Teknik Fisika",
+            "Teknik Pertambangan",
+            "Rekayasa Kehutanan"
+        ];
+        var Flist2 = [
+            "Arsitektur",
+            "Teknik Mesin",
+            "Teknik Industri",
+            "Teknologi Pangan",
+            "Teknik Telekomunikasi",
+            "Sains Lingkungan Kelautan"
+        ];
+        function createList(listId, tag) {
+            $.each(tag, function (index, namaProdi) {
+                $("#" + listId).append('<li class="flex py-[2px]">' +
+                    '<p class="bg-[#FEFEFE] text-[#899443] rounded-md rounded-b font-bold text-center py-2 px-auto ml-3 shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset] min-w-[30px]">' + (index + 1) + '</p>' +
+                    '<div class="mx-auto w-full px-4">' +
+                    '<p>' + namaProdi + '</p>' +
+                    '<div class="w-full h-1 bg-slate-300 rounded-xl shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]"></div>' +
+                    '</div>' +
+                    '</li>');
+            });
+        }
+        $(document).ready(function () {
+            createList("Clist", Clist);
+            createList("Clist2", Clist2);
+            createList("Clist3", Clist3);
+            createList("Flist", Flist);
+            createList("Flist2", Flist2);
+        });
+    </script>
 
     <script src="<?php echo base_url('/js/app.js') ?>">
     </script>

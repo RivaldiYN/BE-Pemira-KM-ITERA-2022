@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 use App\Models\DetailCapresma;
+use App\Moddels\RancanganProgja;
 
 class Capresma extends BaseController
 {
@@ -9,6 +10,8 @@ class Capresma extends BaseController
     {
         $details = new DetailCapresma;
         $data['detail_capresma'] = $details->getData();
+        // $progja = new RancanganProgja();
+        // $dataProgja['rancangan_progja'] = $progja->getData();
     
         return view('capresma', $data);
     }

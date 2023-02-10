@@ -39,7 +39,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/capresma', 'Capresma::index');
 $routes->get('/lokasi', 'Lokasi::index');
-$routes->get('/detail-capresma/(:any)', 'Detail::show/$id');
+$routes->get('/detail-capresma/(:any)', 'Detail::show/$1');
 
 /*
  * --------------------------------------------------------------------

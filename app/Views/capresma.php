@@ -28,10 +28,10 @@
                 </div>
                 <ul class="hidden md:flex gap-2 items-center">
                     <li>
-                        <a href="/" class="bg-button-color px-6 py-2 rounded-tl-small-desktop rounded-br-small-desktop font-bold text-white">Beranda</a>
+                        <a href="/" class="font-bold text-lime-900 hover:bg-[#C0D057] px-6 py-2 hover:rounded-tl-small-desktop hover:rounded-br-small-desktop  hover:text-white">Beranda</a>
                     </li>
                     <li>
-                        <a href="/capresma" class="font-bold text-lime-900 hover:bg-[#C0D057] px-6 py-2 hover:rounded-tl-small-desktop hover:rounded-br-small-desktop  hover:text-white">Capresma</a> 
+                        <a href="/capresma" class="bg-button-color px-6 py-2 rounded-tl-small-desktop rounded-br-small-desktop font-bold text-white">Capresma</a> 
                     </li>
                     <li>
                         <a href="/#timeline" class="font-bold text-lime-900 hover:bg-[#C0D057] px-6 py-2 hover:rounded-tl-small-desktop hover:rounded-br-small-desktop  hover:text-white">Timeline</a> 
@@ -68,7 +68,7 @@
             <div class="mx-14 text-center md:w-48 lg:w-[19.5rem] z-10">
                 
                 <a href="/detail-capresma/<?= $details['id'] ?>">
-                <img src="<?php echo base_url('/images/capresma.svg') ?>" alt="capresma">
+            <img src="<?php echo base_url('/images/capresma_1.svg') ?>" alt="capresma">
                 </a>
                 <h1 class="mt-4 lg:text-2xl font-bold">
                 <?= $details['nama']
@@ -83,16 +83,7 @@
             $i++;
             }
             ?>
-            <!-- <div class="mx-14 text-center md:w-48 lg:w-[19.5rem] z-10">
-                <a href="/detail-capresma">
-                <img src="<?php echo base_url('/images/capresma.svg') ?>" alt="capresma">
-                </a>
-                <h1 class="mt-4 lg:text-2xl font-bold">
-                    M. Raihan Adiwidya
-                </h1>
-                <h1 class="lg:text-2xl">120280118</h1>
-                <h1 class="lg:text-2xl">Teknik Kimia</h1>
-            </div> -->
+            
             </div>
             <div class="z-0 md:hidden">
                 <img class="-mt-[60rem]" src="<?php echo base_url('/images/bg-capresma-mobile.svg') ?>" alt="">
