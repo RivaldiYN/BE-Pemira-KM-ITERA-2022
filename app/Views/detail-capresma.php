@@ -107,10 +107,10 @@
                 <?php $i = 0; foreach($misi as $r){ $i++; ?>
                 <div class="flex flex-row">
                     <div
-                        class="bg-[#feffef] w-24 md:w-20 text-center m-4 mr-1 md:mr-4 rounded-b-small-mobile max-h-10 shadow-[40px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]">
+                        class="bg-[#feffef] w-[15%] md:w-20 text-center m-4 mr-1 md:mr-4 rounded-b-small-mobile max-h-10 shadow-[40px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]">
                         <p class="text-normal-desktop text-[#899443] font-extrabold"><?= $i ?>.</p>
                     </div>
-                    <div class="m-4 ml-1 md:ml-4">
+                    <div class="m-4 ml-1 md:ml-4 w-[85%]">
                         <p class="text-smole-mobile md:text-base">
                             <?= $r->misi_calon ?>
                         </p>
@@ -131,13 +131,13 @@
                 <div
                     class="item-misi flex md:gap-5 gap-2 mt-5 md:mx-0 bg-button-color bg-[url('/img/Vector.svg')] bg-right-bottom bg-no-repeat w-full md:px-5 md:py-4 px-3 py-2 items-start md:rounded-normal-desktop rounded-normal-mobile shadow-lime-900 shadow-lg overflow-hidden">
                     <div
-                        class="number-container bg-white  md:pb-5 md:w-72 pb-2 w-44 rounded-b-normal-mobile md:rounded-b-normal-desktop relative shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset] md:-top-4 -top-2">
+                        class="number-container bg-white  md:pb-5 pb-2 w-[25%] lg:w-[20%] rounded-b-normal-mobile md:rounded-b-normal-desktop relative shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset] md:-top-4 -top-2">
                         <p class="number text-big-desktop md:text-[80px] font-extrabold text-button-color text-center">
                             <?= $i ?>.</p>
                     </div>
-                    <div class="text-contrainer font-poppins text-white">
+                    <div class="text-contrainer font-poppins text-white w-[75%] lg:w-[80%]">
                         <span class="title font-bold italic text-normal-mobile md:text-normal-desktop"><?= $d->progja_calon ?>.</span>
-                        <p class="description text-smole-mobile md:text-base pt-0 md:pt-3 md:text-center"><?= $d->deskripsi ?></p>
+                        <p class="description text-smole-mobile md:text-base pt-0 md:pt-3 md:text-justify"><?= $d->deskripsi ?></p>
                     </div>
                 </div>
                 <?php } ?>
