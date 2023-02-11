@@ -98,7 +98,7 @@
             <h1 class="text-normal-desktop md:text-extra-desktop  text-center font-bold leading-relaxed py-4 md:py-8 text">
                 Tentang Pemira </h1>
             <div
-                class="container border-4 md:border-8 border-button-color rounded-normal-desktop shadow-[#bababa] shadow-md md:p-10 md:w-[70vw] mx-4 md:mx-auto p-4 text-normal-mobile md:text-normal-desktop font-bold">
+                class="container border-4 md:border-8 border-button-color rounded-normal-desktop shadow-[#bababa] shadow-md md:p-10 md:w-[70vw]  md:mx-auto p-4 text-normal-mobile md:text-normal-desktop font-bold">
                 <p class="leading-7 md:mb-12 mb-4   ">
                     PEMIRA KM ITERA 2021 merupakan kegiatan pemilihan presiden KM ITERA
                     yang akan memimpin kabinet KM ITERA di periode selanjutnya.

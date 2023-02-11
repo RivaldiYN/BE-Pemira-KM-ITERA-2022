@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/861b96d111.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-[#e6e7ba] overflow-x-hidden bg-second">
+<body class=" overflow-x-hidden bg-second">
 <nav class="top-0 z-50 fixed w-screen px-5 md:px-10">
         <div class="nav-container flex flex-row justify-between md:items-center items-start ">
             <div class="logo">
@@ -50,7 +50,7 @@
                 <a href="/capresma" class="font-bold text-lime-900">Capresma</a> 
             </li>
             <li class="py-2 m-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">
-                <a href="#timeline" class="font-bold text-lime-900">Timeline</a> 
+                <a href="/#timeline" class="font-bold text-lime-900">Timeline</a> 
             </li>
             <li class="py-2 m-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">
                 <a href="/lokasi" class="font-bold text-lime-900">Lokasi Pemilihan</a> 
@@ -58,7 +58,7 @@
         </ul>
     </nav>
 
-    <section style="background-image: url(<?php echo base_url("/images/Frame_19.svg") ?>);" class="overflow-x-hidden mt-0 pt-10 pb-52 md:bg bg-cover bg-no-repeat bg-center w-screen">
+    <section style="background-image: url(<?php echo base_url("/images/Frame_19.svg")?>); margin:0px" class="overflow-x-hidden mt-0 pt-10 pb-52 md:bg bg-cover bg-no-repeat bg-center w-screen">
     <?php
                 $i = 0;
                 foreach($detail_capresma as $details) {
@@ -89,7 +89,10 @@
     </section>
 
     <footer class="">
-        <img src="<?php echo base_url('/images/footer-beranda.svg') ?>" alt="">
+        <img style=" position: relative; bottom: 0;
+        width: 100vw;
+        "
+         src="<?php echo base_url('/images/footer-beranda.svg') ?>" alt="">
     </footer>
     <script src="<?php echo base_url('/js/app.js') ?>"></script>
     <script src="<?php echo base_url('/js/script.js') ?>"></script>

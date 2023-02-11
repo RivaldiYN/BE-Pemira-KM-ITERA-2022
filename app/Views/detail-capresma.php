@@ -9,6 +9,26 @@
     <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
     <link rel="stylesheet" href="<?php echo base_url('/css/app.css') ?>">
     <script src="https://kit.fontawesome.com/861b96d111.js" crossorigin="anonymous"></script>
+    
+    <style>
+        /* @media (max-width: 768px){ */
+        @media screen and (max-width: 768px){
+            .number-container{
+            min-width: 65px;
+            } 
+        }
+        @media screen and (min-width: 769px){
+            .number-container{
+            min-width: 120px;
+            } 
+        }
+        .item-progja {
+            background-image: url(<?php echo base_url("/images/Vector.svg")?>);
+        }
+        /* .number-container {
+            min-width: 120px;
+        } */
+    </style>
 </head>
 
 <body class="bg-[#FEFFEF] overflow-x-hidden">
@@ -129,9 +149,9 @@
                 
                 <?php $i = 0; foreach($progja as $d){ $i++; ?>
                 <div
-                    class="item-misi flex md:gap-5 gap-2 mt-5 md:mx-0 bg-button-color bg-[url('/img/Vector.svg')] bg-right-bottom bg-no-repeat w-full md:px-5 md:py-4 px-3 py-2 items-start md:rounded-normal-desktop rounded-normal-mobile shadow-lime-900 shadow-lg overflow-hidden">
-                    <div
-                        class="number-container bg-white  md:pb-5 pb-2 w-[25%] lg:w-[20%] rounded-b-normal-mobile md:rounded-b-normal-desktop relative shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset] md:-top-4 -top-2">
+                    class="item-progja flex md:gap-5 gap-2 mt-5 md:mx-0 bg-button-color bg-[url('/img/Vector.svg')] bg-right-bottom bg-no-repeat w-full md:px-5 md:py-4 px-3 py-2 items-start md:rounded-normal-desktop rounded-normal-mobile shadow-lime-900 shadow-lg overflow-hidden">
+                    <div 
+                        class="number-container bg-white  md:pb-5 pb-2  rounded-b-normal-mobile md:rounded-b-normal-desktop relative shadow-[47px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset] md:-top-4 -top-2">
                         <p class="number text-big-desktop md:text-[80px] font-extrabold text-button-color text-center">
                             <?= $i ?>.</p>
                     </div>
@@ -145,12 +165,12 @@
         </div>
     </section>
 
-    <div class="bottom-0 hidden md:flex lg:flex">
+    <div class="bottom-0 md:flex lg:flex">
         <img class="w-screen" src="<?php echo base_url('/images/footer-desktop.svg') ?>">
     </div>
-    <div class="w-screen bottom-0 md:hidden lg:hidden">
+    <!-- <div class="w-screen bottom-0 md:hidden lg:hidden">
         <img src="<?php echo base_url('/images/footer-mobile.svg') ?>">
-    </div>
+    </div> -->
 
     <!-- Modal CV -->
     <div class="fixed hidden top-20 z-40 inset-x-0 pb-4 items-center justify-center" id="modalCV">

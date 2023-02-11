@@ -50,7 +50,7 @@
                 <a href="/capresma" class="font-bold text-lime-900">Capresma</a> 
             </li>
             <li class="py-2 m-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">
-                <a href="#timeline" class="font-bold text-lime-900">Timeline</a> 
+                <a href="/#timeline" class="font-bold text-lime-900">Timeline</a> 
             </li>
             <li class="py-2 m-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">
                 <a href="/lokasi" class="font-bold text-lime-900">Lokasi Pemilihan</a> 
@@ -151,7 +151,7 @@
     </section>
 
     <footer class="absolute w-screen bg-second">
-        <img src="<?php echo base_url('/images/footer-beranda.svg') ?>">
+        <img class="w-screen" src="<?php echo base_url('/images/footer-beranda.svg') ?>">
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.1.js"
