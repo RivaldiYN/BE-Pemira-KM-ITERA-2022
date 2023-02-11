@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
     <link rel="stylesheet" href="<?php echo base_url('/css/app.css') ?>">
+    <link rel="preload" as="image" href="<?php echo base_url('/images/' . $detail_capresma[0]->images) ?>">
+
     <script src="https://kit.fontawesome.com/861b96d111.js" crossorigin="anonymous"></script>
     
     <style>
@@ -63,17 +65,17 @@
             </div>
         </div>
         <ul class=" hidden md:hidden w-full bg-[#00000025] pt-5 pb-3 mt-1 rounded-normal-mobile" id="nav-menu">
-            <li class="py-2 m-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">
-                <a href="/" class="font-bold text-lime-900">Beranda</a> 
+            <li class="m-2">
+                <a href="/" class="font-bold w-full block text-lime-900 py-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">Beranda</a> 
             </li>
-            <li class="py-2 m-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">
-                <a href="/capresma" class="font-bold text-lime-900">Capresma</a> 
+            <li class="m-2">
+                <a href="/capresma" class="font-bold w-full block text-lime-900 py-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">Capresma</a> 
             </li>
-            <li class="py-2 m-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">
-                <a href="/#timeline" class="font-bold text-lime-900">Timeline</a> 
+            <li class="m-2">
+                <a href="/#timeline" class="font-bold w-full block text-lime-900 py-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">Timeline</a> 
             </li>
-            <li class="py-2 m-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">
-                <a href="/lokasi" class="font-bold text-lime-900">Lokasi Pemilihan</a> 
+            <li class="m-2 ">
+                <a href="/lokasi" class="font-bold w-full block text-lime-900 py-2 px-3 bg-white rounded-normal-mobile active:bg-[#C0D057]">Lokasi Pemilihan</a> 
             </li>
         </ul>
     </nav>
