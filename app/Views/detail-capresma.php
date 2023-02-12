@@ -18,11 +18,17 @@
             .number-container{
             min-width: 65px;
             } 
+            .number_misi_container {
+                min-width: 24px
+            }
         }
         @media screen and (min-width: 769px){
             .number-container{
             min-width: 120px;
             } 
+            .number_misi_container {
+                min-width: 32px
+            }
         }
         .item-progja {
             background-image: url(<?php echo base_url("/images/Vector.svg")?>);
@@ -106,7 +112,7 @@
     </section>
     <?php 
     if($detail_capresma[0]->nim=="120150036"){
-        $youtube = "https://www.youtube.com/embed/jDXRitWhOtQ";
+        $youtube = "https://www.youtube.com/embed/8OxTG8plkz4?rel=0";
         $cv = "https://drive.google.com/file/d/1ZVMyI7sXKyP3oItFdurvVSwLBy4lVgc3/preview";
         $grandDesign = "https://drive.google.com/file/d/1P_Vcaz5VP0mmG0UbGw-MVyz1Ij5h0Sae/preview";
     } else{
@@ -141,9 +147,8 @@
                 
                 <?php $i = 0; foreach($misi as $r){ $i++; ?>
                 <div class="flex flex-row">
-                    <div
-                        class="bg-[#feffef] w-[15%] md:w-20 text-center m-4 mr-1 md:mr-4 rounded-b-small-mobile max-h-10 shadow-[40px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]">
-                        <p class="text-normal-desktop text-[#899443] font-extrabold"><?= $i ?>.</p>
+                    <div class="number_misi_container bg-[#feffef] text-center m-4 mr-1 md:mr-4 rounded-b-small-mobile max-h-10 shadow-[40px_-20px_50px_-57px_rgba(0,0,0,0.75)_inset]">
+                        <p class=" text-normal-desktop text-[#899443] font-extrabold"><?= $i ?>.</p>
                     </div>
                     <div class="m-4 ml-1 md:ml-4 w-[85%]">
                         <p class="text-smole-mobile md:text-base">
