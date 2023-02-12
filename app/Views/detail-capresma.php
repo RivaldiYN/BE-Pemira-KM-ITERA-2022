@@ -214,7 +214,7 @@
         <div
             class="bg-white rounded-lg overflow-hidden shadow-lg shadow-[rgb(137, 148, 67)] transform transition-all w-max">
             <div class="flex bg-button-color px-4 pt-4 pb-4 rounded-t-lg justify-between items-center">
-                <h2 class="text-white text-lg font-semibold">Laporan Dana Kampanye</h2>
+                <h2 class="text-white text-lg font-semibold">Grand Desing</h2>
                 <button
                     class="close text-white font-bold py-2 px-4 rounded-lg hover:bg-[rgb(137,148,67)] hover:shadow-md hover:shadow-[rgb(137, 148, 67)] focus:outline-none focus:shadow-outline-blue active:bg-zinc-300 hover:text-red-600">
                     X
