@@ -34,7 +34,7 @@
 </head>
 
 <body class="bg-[#FEFFEF] overflow-x-hidden">
-<nav class="top-0 z-50 fixed w-screen px-5 md:px-10">
+    <nav class="top-0 z-50 fixed w-screen px-5 md:px-10">
         <div class="nav-container flex flex-row justify-between md:items-center items-start ">
             <div class="logo">
                 <div class="logoContainer bg-white px-5 pb-5 pt-3 rounded-b-3xl">
@@ -104,13 +104,26 @@
                 Design</button>
         </div>
     </section>
-
+    <?php 
+    if($detail_capresma[0]->nim=="120150036"){
+        $youtube = "https://www.youtube.com/embed/jDXRitWhOtQ";
+        $cv = "https://drive.google.com/file/d/1P_Vcaz5VP0mmG0UbGw-MVyz1Ij5h0Sae/preview";
+        $grandDesign = "https://drive.google.com/file/d/1P_Vcaz5VP0mmG0UbGw-MVyz1Ij5h0Sae/preview";
+    } else{
+        $youtube = "https://www.youtube.com/embed/8OxTG8plkz4?rel=0";
+        $cv = "https://drive.google.com/file/d/1c8YLEidAfRIxnOAy6iHacl6AQerjP9xP/preview";
+        $grandDesign = "https://drive.google.com/file/d/1c8YLEidAfRIxnOAy6iHacl6AQerjP9xP/preview";
+    }
+    ?>
+    
+"
     <section>
         <div class="mt-[34rem] lg:mt-[56rem] mx-8 lg:mx-0 p-20 pb-10 justify-center flex">
             <iframe
                 class="z-40 rounded-xl border-2 border-[#899443] shadow-lg shadow-[#899443] lg:shadow-none lg:w-3/5 aspect-video"
                 allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0"
-                src="https://www.youtube.com/embed/8OxTG8plkz4?rel=0" width="auto" loading="lazy"></iframe>
+                src=<?php echo $youtube ?>
+                width="auto" loading="lazy"></iframe>
         </div>
 
         <div class="my-10 md:mx-48 lg:mx-80">
@@ -187,7 +200,7 @@
             </div>
             <div class="px-4 py-4">
                 <div class="content-between items-center flex">
-                    <iframe src="https://drive.google.com/file/d/1P_Vcaz5VP0mmG0UbGw-MVyz1Ij5h0Sae/preview" width="640"
+                    <iframe src=<?php echo $cv ?> width="640"
                         height="480" allow="autoplay">
                     </iframe>
                 </div>
@@ -209,7 +222,7 @@
             </div>
             <div class="px-4 py-4">
                 <div class="content-between items-center flex">
-                    <iframe src="https://drive.google.com/file/d/1c8YLEidAfRIxnOAy6iHacl6AQerjP9xP/preview" width="640"
+                    <iframe src=<?php echo $grandDesign ?> width="640"
                         height="480" allow="autoplay">
                     </iframe>
                 </div>

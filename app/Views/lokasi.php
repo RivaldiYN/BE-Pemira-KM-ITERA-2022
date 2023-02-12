@@ -76,7 +76,7 @@
     <section class="pt-2 lg:z-50 lg:-mt-20 flex flex-col lg:flex-row justify-around overflow-x-hidden">
         <!-- Gedung C -->
         <div class="my-10 container mx-auto">
-            <h1 class="text-center font-bold text-lg lg:text-2xl">Gedung C ITERA</h1>
+            <h1 class="text-center font-bold text-lg lg:text-2xl">Aula Gedung C ITERA</h1>
             <img src="<?php echo base_url('/images/gedC.svg') ?>" class="w-9/12 z-20 relative drop-shadow-2xl mx-auto" alt="">
             <!-- drop shadow -->
             <div style="background-image: url(<?php echo base_url("/images/detailintersct.svg") ?>);"
@@ -119,7 +119,7 @@
 
         <!-- Gedung F -->
         <div class="my-10 container mx-auto">
-            <h1 class="text-center font-bold text-lg lg:text-2xl">Gedung F ITERA</h1>
+            <h1 class="text-center font-bold text-lg lg:text-2xl">Aula Gedung F ITERA</h1>
             <img src="<?php echo base_url('/images/gedF.svg') ?>" class="w-9/12 z-20 relative drop-shadow-2xl mx-auto" alt="">
             <!-- drop shadow -->
             <div style="background-image: url(<?php echo base_url("/images/detailintersct.svg") ?>);"
