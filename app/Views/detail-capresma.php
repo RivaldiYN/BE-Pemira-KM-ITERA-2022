@@ -38,7 +38,7 @@
         <div class="nav-container flex flex-row justify-between md:items-center items-start ">
             <div class="logo">
                 <div class="logoContainer bg-white px-5 pb-5 pt-3 rounded-b-3xl">
-                <img class="w-28" src="<?php echo base_url('/images/logo.svg') ?>">
+                <img class="w-28" src="<?php echo base_url('/images/logo_2.svg') ?>">
                 </div>
             </div>
 
@@ -107,16 +107,16 @@
     <?php 
     if($detail_capresma[0]->nim=="120150036"){
         $youtube = "https://www.youtube.com/embed/jDXRitWhOtQ";
-        $cv = "https://drive.google.com/file/d/1P_Vcaz5VP0mmG0UbGw-MVyz1Ij5h0Sae/preview";
+        $cv = "https://drive.google.com/file/d/1ZVMyI7sXKyP3oItFdurvVSwLBy4lVgc3/preview";
         $grandDesign = "https://drive.google.com/file/d/1P_Vcaz5VP0mmG0UbGw-MVyz1Ij5h0Sae/preview";
     } else{
         $youtube = "https://www.youtube.com/embed/8OxTG8plkz4?rel=0";
-        $cv = "https://drive.google.com/file/d/1c8YLEidAfRIxnOAy6iHacl6AQerjP9xP/preview";
+        $cv = "https://drive.google.com/file/d/1tfiJ-u8Uaj8rP4uopyjq8xaoS-Ok-pc-/preview";
         $grandDesign = "https://drive.google.com/file/d/1c8YLEidAfRIxnOAy6iHacl6AQerjP9xP/preview";
     }
     ?>
     
-"
+
     <section>
         <div class="mt-[34rem] lg:mt-[56rem] mx-8 lg:mx-0 p-20 pb-10 justify-center flex">
             <iframe
