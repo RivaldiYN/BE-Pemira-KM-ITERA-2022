@@ -127,7 +127,7 @@
             Tutorial
         </h1>
         <iframe class="rounded-xl w-full md:w-3/4 aspect-video mx-auto xl:w-3/5" allow="autoplay; encrypted-media"
-            allowfullscreen="" frameborder="0" height="auto" src="https://www.youtube.com/embed/8OxTG8plkz4?rel=0"
+            allowfullscreen="" frameborder="0" height="auto" src="https://www.youtube.com/embed/ZF1ucSiAhW8"
             width="auto">
             <img src="https://i2.ytimg.com/vi/mu1KSw28snI/0.jpg" />
         </iframe>
