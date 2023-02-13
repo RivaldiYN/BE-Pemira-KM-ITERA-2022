@@ -116,7 +116,7 @@
         $cv = "https://drive.google.com/file/d/1ZVMyI7sXKyP3oItFdurvVSwLBy4lVgc3/preview";
         $grandDesign = "https://drive.google.com/file/d/1P_Vcaz5VP0mmG0UbGw-MVyz1Ij5h0Sae/preview";
     } else{
-        $youtube = "https://www.youtube.com/embed/8OxTG8plkz4?rel=0";
+        $youtube = "https://www.youtube.com/embed/Z9XCGoZYZug";
         $cv = "https://drive.google.com/file/d/1tfiJ-u8Uaj8rP4uopyjq8xaoS-Ok-pc-/preview";
         $grandDesign = "https://drive.google.com/file/d/1c8YLEidAfRIxnOAy6iHacl6AQerjP9xP/preview";
     }
