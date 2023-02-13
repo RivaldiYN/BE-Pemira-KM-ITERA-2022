@@ -103,7 +103,7 @@
                     </li>
                 </ul>
 
-                <ul class="py-8" id="Clist3">
+                <!-- <ul class="py-8" id="Clist3">
                     <li class="flex py-2">
                         <div class="mx-auto w-full px-4">
                             <p class="justify-end">Rabu, 15 Februari 2023</p>
@@ -112,7 +112,7 @@
                             </div>
                         </div>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
         <!-- Gedung c -->
@@ -179,17 +179,14 @@
             "Teknik Biosistem",
             "Teknik Material",
             "ARL",
-            "Rekayasa Tata Kelola Air Terpadu",
-            "Sains Data"
-        ];
-        var Clist3 = [
+            "Sains Data",
             "Teknik Geomatika",
             "Teknik Geologi",
             "Biologi",
             "Teknik Lingkungan",
-            "Teknik Biomedis",
-            "Rekayasa Kosmetik",
-            "Teknik Perkeretaapian"
+        ];
+        var Clist3 = [
+            
         ];
         var Flist = [
             "PWK",
@@ -197,7 +194,11 @@
             "Teknik Kelautan",
             "Teknik Fisika",
             "Teknik Pertambangan",
-            "Rekayasa Kehutanan"
+            "Rekayasa Kehutanan",
+            "Rekayasa Tata Kelola Air Terpadu",
+            "Teknik Perkeretaapian",
+            "Teknik Biomedis",
+            "Rekayasa Kosmetik"
         ];
         var Flist2 = [
             "Arsitektur",
@@ -221,7 +222,7 @@
         $(document).ready(function () {
             createList("Clist", Clist);
             createList("Clist2", Clist2);
-            createList("Clist3", Clist3);
+            // createList("Clist3", Clist3);
             createList("Flist", Flist);
             createList("Flist2", Flist2);
         });
